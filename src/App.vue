@@ -16,12 +16,12 @@ export default {
   data() {
     return {
       mascota: {
-        nombre: 'Luna',
+        nombre: 'Tanza',
         tipo: 'Perro',
-        edad: 4,
+        edad: 12,
         vacunado: true,
-        foto: 'https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=600&q=80',
-        caracteristicas: ['Juguetona', 'Cariñosa', 'Le gusta correr']
+        foto: require('./assets/tanza.jpeg'),
+        caracteristicas: ['Regalona', 'Obediente', 'Le dan los 5 minutos (correr mucho)']
       }
     }
   }
